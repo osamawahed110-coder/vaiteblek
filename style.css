@@ -1536,3 +1536,15 @@ html.lenis {
 .lenis.lenis-stopped {
   overflow: hidden;
 }
+@media (max-width: 576px) {
+  .lang-switch {
+    font-size: 0.75rem !important;
+  }
+  .lang-switch a {
+    padding: 2px 6px !important;
+  }
+  .navbar-vb .container {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+}
